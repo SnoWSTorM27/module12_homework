@@ -15,12 +15,12 @@
 function Task5(){
     class ElectricalAppliance {
         constructor(name) {
-        this.name = name,
-        this.state ='off' 
+            this.name = name,
+            this.state ='off' 
         }
         setState (state){
-        this.state = state;
-        console.log (`${this.name} is power ${this.state}`)
+            this.state = state;
+            console.log (`${this.name} is power ${this.state}`)
         
         }  
     }
